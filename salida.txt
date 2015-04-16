@@ -1,0 +1,11 @@
+Ingrese su nombre: Federico
+Bienvenido Federico
+Ingrese un numero entero: 50
+Ingrese otro numero entero: 3
+El resultado de la multiplicacion de ambos numeros es: 150
+El numero es mayor que 100
+Ingrese un numero decimal: 4.40
+El numero es mayor que PI
+Ya es de noche? (s/n): n
+Que tengas un buen día.
+
