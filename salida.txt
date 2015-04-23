@@ -1,11 +1,8 @@
-Ingrese su nombre: Federico
-Bienvenido Federico
-Ingrese un numero entero: 50
-Ingrese otro numero entero: 3
-El resultado de la multiplicacion de ambos numeros es: 150
-El numero es mayor que 100
-Ingrese un numero decimal: 4.40
-El numero es mayor que PI
-Ya es de noche? (s/n): n
-Que tengas un buen día.
-
+Concatenamos dos cadenas: Hola Chau
+El largo de las cadenas contatenadas es: 9
+El resultado de la multiplicacion de 10 y 5 es: 50
+El resultado de la suma de 10 y 5 es: 15
+El resultado de la multiplicacion de 18.14 y 9.36 es: 169.79
+Niego el valor booleano true: 0
+Los caracteres son iguales: 1
+Los caracteres son diferentes: 0

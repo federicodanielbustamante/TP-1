@@ -1,66 +1,49 @@
 /*
 	TP 1 - Uso de variables, valores y operaciones de los tipos de datos.
 	Federico Daniel Bustamante
-	16/04/2015
+	23/04/2015
 */
 
 #include <iostream>
 
 int main() {
-	int a;
-	int b;
+	int a = 10;
+	int b = 5;
 	int c;
-	double d;
-	std::string s;
-	bool e(false);
-	char m;
-	
+	int d;
+	double e = 18.14;
+	double f = 9.36;
+	double g;
+	bool l = true;
+	char m = 'a';
+	char x = 'a';
+	std::string s1 = "Hola ";
+	std::string s2 = "Chau";
+	std::string concat;
 
-	std::cout << "Ingrese su nombre: ";
+	concat = s1 + s2;
 
-	std::cin >> s;
+	std::cout << "Concatenamos dos cadenas: " << concat << "\n";
 
-	std::cout << "Bienvenido " << s << "\n";
-
-	std::cout << "Ingrese un numero entero: ";
-	
-	std::cin >> a;
-
-	std::cout << "Ingrese otro numero entero: ";
-
-	std::cin >> b;
+	std::cout << "El largo de las cadenas contatenadas es: " << concat.size() << "\n";
 
 	c = a * b;
-
-	if (c > 100) {
-		e = true;
-	}
 	
-	std::cout << "El resultado de la multiplicacion de ambos numeros es: " << c << "\n";
+	std::cout << "El resultado de la multiplicacion de 10 y 5 es: " << c << "\n";
 
-	if (e) {
-		std::cout << "El numero es mayor que 100\n";
-	}
-
-	std::cout << "Ingrese un numero decimal: ";
+	d = a + b;
 	
-	std::cin >> d;
+	std::cout << "El resultado de la suma de 10 y 5 es: " << d << "\n";
 
-	if ( d > 3.14 ) {
-		std::cout << "El numero es mayor que PI" << "\n";
-	} else {
-		std::cout << "El numero es menor que PI" << "\n";
-	}
+	g = e * f;
 
-	std::cout << "Ya es de noche? (s/n): ";
+	std::cout << "El resultado de la multiplicacion de 18.14 y 9.36 es: " << g << "\n";
 
-	std::cin >> m;
+	std::cout << "Niego el valor booleano true: " << not l << "\n";
 
-	if (m == 's') {
-		std::cout << "Que tengas una buena noche." << "\n";
-	} else {
-		std::cout << "Que tengas un buen día." << "\n";
-	}
+	std::cout << "Los caracteres son iguales: " << (m == x) << "\n";
+
+	std::cout << "Los caracteres son diferentes: " << (m != x) << "\n";
 
 	return 0;
 }
